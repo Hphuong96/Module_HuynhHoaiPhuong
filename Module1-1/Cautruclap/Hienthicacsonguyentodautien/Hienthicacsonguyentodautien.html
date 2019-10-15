@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = prompt("Nhap vao so luong cac so nguyen to : ");
+    let count;
+    let N = 2;
+    let i;
+    let prime = true;
+    let countPrime = 1;
+    for (count = 0; count < number; ) {
+        for (i = 2; i <= Math.sqrt(N); i++) {
+            if (N % i === 0) {
+                prime = false;
+                break;
+            } else {
+                prime = true;
+            }
+        }
+        if (prime === true){
+            document.write(N + "," +"<br>");
+            countPrime++;
+            count+=1;
+        }
+        N++;
+    }
+</script>
+</body>
+</html>

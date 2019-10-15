@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let m = prompt("nhap so dong :") * 1;
+    let n = prompt("nhap so cot :") * 1;
+    let nums = [];
+    let tich = 1;
+    let max = 0;
+    let X = [];
+    for (let i = 0; i < (m * n); ++i) {
+        nums[i] = Math.floor(Math.random() * (m * n + 1));
+    }
+
+    function dispArr(arr) {
+        for (let i = 0; i < arr.length; ++i) {
+            if (arr[i] % 3 === 0 && i < n) {
+                console.log("so chia het cho 3 :" + arr[i]);
+                tich = tich * arr[i]
+            }
+            if (arr[i]>max){
+                max = arr[i];
+            }
+            document.write(arr[i] + " " + "|" + " ");
+            if ((i + 1) % n === 0) {
+                document.write("<br/>");
+                X.push(max);
+                console.log("so lon nhat :" + max);
+                max = 0;
+            }
+        }
+    }
+
+    dispArr(nums);
+    document.write("<br/>");
+    document.write("Tích các số là bội số của 3 nằm trên dòng đầu tiên của ma trận :" + tich);
+    document.write("<br/>");
+    document.write(X.join(","));
+    document.write("<br/>");
+    document.write("mang X sau khi xoa di phan tu dau tien :");
+    document.write(X.shift());
+    document.write("<br/>");
+    document.write(X.join(","));
+
+</script>
+</body>
+</html>

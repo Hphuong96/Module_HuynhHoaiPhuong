@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input id="soNuyenBatKi" type="text"/>
+    <input id="kiemTra" type="button" value="KiemTra" onclick="check()"/>
+</form>
+<script>
+    let soNguyen = document.getElementById("soNguyenBatKi");
+    function check() {
+    if (soNguyen.value*1 < 0){
+        alert("So nay nho hon 0 ");
+    }
+    if (soNguyen.value*1 > 0){
+        alert("so nay lon hon 0 ");
+        }
+    }
+</script>
+
+</body>
+</html>

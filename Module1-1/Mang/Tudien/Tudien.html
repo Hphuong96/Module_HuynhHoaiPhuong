@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input type="text" id="language"/>
+    <input type="button" value="Dich" onclick="dich()"/>
+    <p id="result"><p/>
+</form>
+<script>
+    let ketQua ;
+    let english = ["go","stay","home","school","engine","enginer","mechanical","software"];
+    let vietNam = ["di", "olai", "nha", "truonghoc", "dongco", "kysu", "cokhi", "phanmem"];
+    function dich() {
+        let word = document.getElementById("language").value;
+        for (let i=0; i<english.length; i++){
+            if(word === english[i]){
+                ketQua = vietNam[i];
+                break;
+            } else if(i===(english.length-1) && word !== english[i]) {
+                alert("Khong tim thay ");
+                document.getElementById("result").innerHTML=("--");
+            }
+        }
+        document.getElementById("result").innerHTML=(ketQua);
+    }
+</script>
+</body>
+</html>

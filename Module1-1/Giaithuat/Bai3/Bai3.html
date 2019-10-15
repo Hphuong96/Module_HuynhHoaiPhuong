@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    while (true) {
+        let inputNumber = prompt("(Biểu thức có dạng S=1+1/2+1/3+....+1/n): "  + "\n" + "Nhập số n :" );
+        let tong = 0;
+        for (let i = 1; i <= inputNumber; i++) {
+            tong = tong + 1 / i
+        }
+        alert(tong);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    while (true) {
+        let x = prompt("nh");
+        if (isNaN(x*1)){
+            alert("invalid!!");
+            continue;
+        }
+        let k = prompt("nhap phan tu k:");
+        k = k.toString();
+        let arr = x.split("");
+        let tong = 0;
+        for (let i = 1; i < arr.length; i++) {
+            if (arr[i] % 2 !== 0 && arr[i] >= 0) {
+                tong = tong + arr[i] * 1
+            }
+        }
+        document.write("Mang nhap vao" + arr.join(","));
+        document.write("<br/>");
+        document.write("Tong cac phan tu le trong mang : " + tong);
+        document.write("<br/>");
+        if (arr.indexOf(k) === -1) {
+            document.write("Khong co phan tu k trong mang ");
+        } else {
+            document.write("Vi tri dau tien trong mang cua phan tu K:" + arr.indexOf(k));
+        }
+        document.write("<br/>");
+        arr.sort(function (a, b) {
+            return a - b
+        });
+        document.write("Mang sau khi duoc sap xep :");
+        document.write(arr.join(","));
+        document.write("<br/>");
+        arr.push(prompt("Nhap phan tu P: "));
+        arr.sort(function (a, b) {
+            return a - b
+        });
+        document.write("Mang sau khi chen phan tu P:");
+        document.write(arr.join(","));
+        break;
+    }
+</script>
+</body>
+</html>

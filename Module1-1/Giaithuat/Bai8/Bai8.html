@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    while (true) {
+        let a = prompt("nhap so nguyen duong a") * 1;
+        let b = prompt("nhap so nguyen duong b") * 1;
+        function lcm(x, y) {
+            if ((isNaN(x)) || (isNaN(y))){
+                alert("Number is invalid");
+            }
+            return  Math.abs((x * y) / gcd(x, y));
+        }
+        function gcd(x, y) {//12 ,8
+            x = Math.abs(x);
+            y = Math.abs(y);
+            while (y) {
+                let t = y; //t = 8  t = 4
+                y = x % y; // y = 4  y = 0
+                x = t; // x = 8  x = 4
+            }
+            return x;
+        }
+        alert(lcm(a,b) + "\n" + gcd(a,b))
+    }
+</script>
+</body>
+</html>

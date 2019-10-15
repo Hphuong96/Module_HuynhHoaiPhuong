@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let confirm1 = confirm("Bạn muốn nhập vào tháng hay năm " + "\n" +
+                          "Nếu nhập vào năm chon OK!! Nhập vào tháng thì chọn Cancel!! ^^");
+    while (confirm1){
+        let year = prompt("Nhập năm bất kì :");
+        let isLeapYear = false;
+        if (year.length > 0){
+            year = year*1;
+            if (year % 4 === 0) {
+                if (year % 100 === 0) {
+                    if (year % 400 === 0) {
+                        isLeapYear = true;
+                    }
+                } else {
+                    isLeapYear = true;
+                }
+            }
+            if (isLeapYear) {
+                alert(year + " co 366 ngày");
+            } else {
+                alert(year + " co 365 ngày");
+            }
+    } else {
+        alert("Year is invalid!!")
+        }
+        confirm1 = confirm("Bạn muốn nhập vào tháng hay năm " + "\n" +
+            "Nếu nhập vào năm chon OK!! Nhập vào tháng thì chọn Cancel!! ^^");
+    }
+    while (!confirm1){
+        let month = prompt("Nhập tháng bất ki:")*1;
+        //month = Number.isInteger(month);
+        let check = /^(1|3|5|7|8|10|12)$/;
+        if (month <=12 && month >0){
+            if (month === 2){
+                alert("Tháng 2 co 28 ngày ,Nếu là năm nhuân thì có 29 ngày.")
+                break;
+            }
+            if (check.test(month)){
+                alert(month + "co 31 ngày");
+            } else {
+                alert(month + "co 30 ngày");
+            }
+        } else {
+            alert('month is invalid!!')
+        }
+        confirm1 = confirm("Bạn muốn nhập vào tháng hay năm " + "\n" +
+            "Nếu nhập vào năm chon OK!! Nhập vào tháng thì chọn Cancel!! ^^");
+    }
+</script>
+</body>
+</html>

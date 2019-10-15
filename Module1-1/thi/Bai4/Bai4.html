@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript" src="hocsinh.js"></script>
+<script>
+    let studentInput = new HocSinh();
+    studentInput.setName("Huynh Hoai Phuong");
+    studentInput.setNumber("99");
+    studentInput.setBirthDay("17/03/1996");
+    studentInput.setPoint(10);
+    function displayStudent(index) {
+        alert("1.Name : " + index.getName() +
+            "\n 2.Number : " + index.getNumber() +
+            "\n 3.BirthDay : " + index.getBirthDay() +
+            "\n 4.Point : " + index.getPoint() +
+            "\n 5.Level : " + index.setStudentLevel())
+    }
+displayStudent(studentInput);
+</script>
+</body>
+</html>

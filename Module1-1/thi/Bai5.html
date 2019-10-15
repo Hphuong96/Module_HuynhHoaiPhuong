@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    let N = prompt("Nhap vao số các phần tử :");
+    for (let i = 0 ; i <N ; i++){
+        arr.push(prompt("Nhap vao gia tri so" + (arr.length+1) + ":"));
+    }
+    //alert(arr.join(","));
+    function longestString(names) {
+        let checkValidate = false;
+        let arr1 = "";
+        let arr2 = "";
+        let arr = names;
+        let tong1 = 0 ;
+        let tong2 = 0;
+        for (let j = 0; j < arr.length; j++) {
+            for (let i = j; i < arr.length; i++) {
+                arr1 += arr[i];
+                tong1 = tong1 + arr[i] * 1;
+                console.log(tong1);
+                if (arr2.length < arr1.length && tong1 > tong2 && tong1 % 4 === 0) {
+                    checkValidate = true;
+                    arr2 = arr1;
+                    console.log(arr2);
+                    tong2 = tong1;
+                }
+            }
+            arr1 = "";
+            tong1 = 0;
+        }
+        if (!checkValidate){
+            alert("Khong co truong hop nao dung")
+        }
+        return arr2;
+    }
+    document.write("Chuoi nhap vao :" + arr.join(""));
+    document.write("<br/>");
+    document.write("Chuoi dai nhat chia het cho 4 :" + longestString(arr));
+    document.write("<br/>");
+    document.write("Do dai chuoi :" + longestString(arr).length);
+    document.write("<br/>");
+    document.write("Vi tri bat dau :" + arr.join("").indexOf(longestString(arr)));
+    document.write("<br/>");
+    document.write("Vi tri ket thuc :" + (longestString(arr).length - 1));
+</script>
+</body>
+</html>

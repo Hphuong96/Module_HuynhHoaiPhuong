@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrayIpnut = [];
+    let N = prompt("Nhap vao số các diem :");
+    for (let i = 0 ; i <N ; i++){
+        arrayIpnut.push(prompt("Nhap vao diem so" + (arrayIpnut.length+1) + ":"));
+    }
+    function findMaxScore(x) {
+        let max = parseFloat(x[0]);
+        let index = 0;
+        for (let i=1; i<x.length; i++){
+            if(x[i] > max){
+                max = parseFloat(x[i]);
+                index = i;
+            }
+        }
+        alert("Diem lon nhat :" + max + " " + "Vi tri index:" + index)
+    }
+    findMaxScore(arrayIpnut);
+</script>
+</body>
+</html>

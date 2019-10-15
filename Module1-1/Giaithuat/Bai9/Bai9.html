@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //let x = [];
+    let x = prompt("nh");
+    let arr = x.split("");
+    let regUp = /^[A-Z]$/;
+    let regLo = /^[a-z]$/;
+    function reverse(){
+        let first = 0;
+        let last = x.length - 1;
+        while (first < last){
+            let b=arr[first];
+            arr[first] = arr[last];
+            arr[last] = b;
+            first++;
+            last--;
+        }
+        document.write(arr.join(""));
+        document.write("<br/>")
+    }
+    function toUpCase() {
+        document.write(x.toLocaleUpperCase());
+        document.write("<br/>")
+    }
+    function toLoCase() {
+        document.write(x.toLocaleLowerCase());
+        document.write("<br/>")
+    }
+    function reveserCase() {
+        let arr = x.split("");
+        for (let i = 0; i <arr.length; i++){
+            if (regUp.test(arr[i])){
+                arr[i] = arr[i].toLowerCase()
+            }else if (regLo.test(arr[i])){
+                arr[i] = arr[i].toUpperCase()
+            }
+        }
+        document.write(arr.join(""));
+    }
+reverse();
+    toUpCase();
+    toLoCase();
+    reveserCase();
+
+</script>
+</body>
+</html>

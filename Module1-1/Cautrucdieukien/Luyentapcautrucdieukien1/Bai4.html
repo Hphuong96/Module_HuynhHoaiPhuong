@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let firstNumber = prompt("nhap so thu nhat : ");
+    let secondNumber = prompt("Nhap so thu hai :");
+    let thirdNumber = prompt("Nhap so thu ba : ");
+    let max = firstNumber;
+    if(max < secondNumber) {
+        max = secondNumber;
+        if (max < thirdNumber) {
+            max = thirdNumber;
+        }
+    }
+    alert(max);
+</script>
+</body>
+</html>

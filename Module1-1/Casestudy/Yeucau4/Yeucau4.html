@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let customerArray = [];
+    menu();
+    function menu() {
+        let a = prompt(
+            "1.Add New Customer: \n" +
+            "2.Delete Customer: \n");
+        switch (a) {
+            case "1":
+                let newCustomer = prompt("Enter number of new customer:");
+                for (let i = 0; i <= newCustomer - 1; i++) {
+                    customerArray.push(prompt("Nhap customer " + customerArray.length ));
+                }
+                writeArray(customerArray);
+                let check = confirm("Ban co muon sap xep theo alphabet khong ?");
+                alphabet(check);
+                menu();
+            case "2":
+                customerArray = ["a", "b", "c", "d", "e", "f", "g", "k", "l", "m"];
+                writeArray(customerArray);
+                let deleteCustomer = prompt("Chon customer muon xoa: ");
+                customerArray.splice(deleteCustomer-1,1);
+                writeArray(customerArray);
+                break;
+            default:
+                alert("Please choose again !!!");
+        }
+    }
+    function writeArray(Array) {
+        let inputArray = "";
+        for (let i = 0; i <= Array.length - 1; i++) {
+            inputArray += i+1 + "." + Array[i] + "\n"
+        }
+        alert("Danh sach customer:" + "\n" + inputArray);
+    }
+    function alphabet(check) {
+        if (check === true) {
+            customerArray = customerArray.sort();
+            writeArray(customerArray);
+        } else {
+            writeArray(customerArray);
+        }
+    }
+</script>
+</body>
+</html>

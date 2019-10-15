@@ -1,0 +1,11 @@
+let date = new MyDate(2,2,2007);
+let a = new Date();
+let b = new Date();
+let c = new Date();
+date.setDay(a.getDate());
+date.setMonth(b.getMonth() + 1);
+date.setYear(c.getFullYear());
+let day = date.getDay();
+let month = date.getMonth();
+let year = date.getYear();
+alert(day + "/" + month + "/" + year);

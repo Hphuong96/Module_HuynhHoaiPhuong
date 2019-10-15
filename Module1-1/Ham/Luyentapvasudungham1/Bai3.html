@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let firstNumber = prompt("Nhap vao so thu nhat :");
+    let secondNumber = prompt("Nhap vao so thu hai :");
+    function checkNumber(a,b) {
+        a = parseFloat(a);
+        b = parseFloat(b);
+        if (a>b){
+            alert("So thu nhat lon hown so thu hai. ")
+        } else {
+            return a+b;
+        }
+    }
+    alert(checkNumber(firstNumber,secondNumber));
+</script>
+</body>
+</html>

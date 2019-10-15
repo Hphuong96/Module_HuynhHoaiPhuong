@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="textInput" type="text" onkeydown="runProgram(event)"/>
+<script>
+    let textInput = document.getElementById("textInput");
+    let str = "Nguyen Thanh Kien";
+    let index = 0;
+    let result = "";
+    function runProgram(event) {
+        if(event.keyCode === 8){
+        }
+        else {
+            event.preventDefault();
+            result += str.charAt(index);
+            textInput.value = result;
+            index++;
+            if (index === str.length) {
+                textInput.style.color = 'green';
+                alert("xong roi");
+            }
+        }
+    }
+</script>
+</body>
+</html>

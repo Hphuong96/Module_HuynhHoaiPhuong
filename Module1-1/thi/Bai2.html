@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputNumber = parseInt(prompt("Nhap vao mot so :"));
+    let checkValidate = false;
+    function isMainNumber(index) {
+        for (let i = 0 ; i <= index; i++){
+            console.log(i*i);
+            if (i*i === index){
+                checkValidate = true;
+                break;
+            }
+        }
+        alert(checkValidate);
+    }
+    isMainNumber(inputNumber);
+</script>
+</body>
+</html>

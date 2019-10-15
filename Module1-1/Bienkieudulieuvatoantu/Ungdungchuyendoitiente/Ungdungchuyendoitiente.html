@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <label></label>
+    <input id="amount" type="number"/>
+    <select name="currency" id="in">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+    </select>
+    <select name="tocurrency" id="ex">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+    </select>
+    <input type="button" onclick="calMoney()" value="convert"/>
+</form>
+<script>
+    var ratio;
+    let money = document.getElementById("amount");
+    let currency = document.getElementById("in");
+    let tocurrency = document.getElementById("ex");
+    function calMoney() {
+        if (currency.value === "USD" && tocurrency.value === "VND") {
+            ratio = 23000;
+        }
+        if (currency.value === "VND" && tocurrency.value === "USD"){
+            ratio = 1/23000;
+        }
+        if (currency.value === tocurrency.value){
+            ratio = 1;
+        }
+        alert(money.value*ratio);
+    }
+</script>
+
+</body>
+</html>

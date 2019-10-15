@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = ["qw", "qw", "er", "tr", "ty", "tr", "ui", "qw"];
+    let randomUnit = prompt("Nhap bat ki:");
+
+    function check(a) {
+        let count = 0;
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] === randomUnit) {
+                count = count + 1;
+            }
+        }
+        if (count === 0)
+            count = -1;
+        alert(count);
+    }
+    check(arr);
+</script>
+</body>
+</html>

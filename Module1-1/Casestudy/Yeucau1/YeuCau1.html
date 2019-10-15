@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let price; // moi sua
+    let customerName = prompt("Enter Customer Name :");
+    let idCard = prompt("Enter Customer IdCard :");
+    let dateOfBirth = prompt("Enter Date Of Birth :");
+    let email = prompt("Enter email :");
+    let address = prompt("Enter address :");
+    let customerType = prompt("Enter customer Type :");
+    let discount = prompt("Enter discount :");
+    let numberAccompanying = prompt("Enter number of accompanying :");
+    let dayOfRent = prompt("Day of rent : ");
+    let serviceType = prompt("Type Of Service : ");
+    let roomType = prompt("Type of Room :");
+    if (serviceType === 'Villa') {price = 500*dayOfRent*(1 - discount/100)}
+    if (serviceType === 'House') {price = 300*dayOfRent*(1 - discount/100)}
+    if (serviceType === 'Room') {price = 100*dayOfRent*(1 - discount/100)}
+    let result = ("Customer Name : ") + customerName
+        + "\n" + ("IdCard : ") + idCard
+        + "\n" + ("Date Of Birth : ") + dateOfBirth
+        + "\n" + ("Email : ") + email
+        + "\n" + ("Address : ") + address
+        + "\n" + ("Customer Type : ") + customerType
+        + "\n" + ("Discount : ") + discount
+        + "\n" + ("Number Of Accompanying : ") + numberAccompanying
+        + "\n" + ("Day Of Rent : ") + dayOfRent
+        + "\n" + ("Service Type : ") + serviceType
+        + "\n" + ("Room Type : ") + roomType
+        + "\n" + ("Total Price : ") + price;
+    alert(result);
+
+
+</script>
+
+</body>
+</html>

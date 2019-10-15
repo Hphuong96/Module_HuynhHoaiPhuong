@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    let N = prompt("Nhap vao số các phần tử :");
+    for (let i = 0 ; i <N ; i++){
+        arr.push(prompt("Nhap vao gia tri so" + (arr.length+1) + ":"));
+    }
+    arr.sort(function (a, b) {
+        return a - b
+    });
+    alert(arr.join(","))
+</script>
+</body>
+</html>

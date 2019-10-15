@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrListCustomer = ["Huynh Hoai Phuong", "Nguyen Xuan Huong"];
+    let customerName = ["Huynh Hoai Phuong", "Nguyen Xuan Huong"];
+    let idCard = ["123456789", "123456789"];
+    let dateOfBirth = ["17/3/1996", "2/4/1996"];
+    let email = ["phuong@gmail.com", "huong@gmail.com"];
+    let address = ["1", "1"];
+    let customerType = ["1", "1"];
+    let discount = ["1", "1"];
+    let numberAccompanying = ["1", "1"];
+    let dayOfRent = ["1", "1"];
+    let serviceType = ["1", "1"];
+    let roomType = ["1", "1"];
+    let totalPay = ["1", "1"];
+    let checkValidate;
+    displayMainMenu();
+
+    function displayMainMenu(chooseEdit) {
+        chooseEdit = prompt(
+            "1. Add New Customer." + "\n" +
+            "2. Display Information Customer." + "\n" +
+            "3. Edit Information Customer." + "\n" +
+            "4. Delete Customer." + "\n" +
+            "5. Exit." + "\n");
+        switch (chooseEdit) {
+            case "1":
+                addNewCustomer();
+                break;
+            case "2":
+                displayCustomer();
+                break;
+            case "3":
+                editInformationCustomer();
+                break;
+            case "4":
+                deleteCustomer();
+                break;
+            case"5":
+                exit();
+                break;
+
+        }
+    }
+
+    function addNewCustomer() {
+        arrListCustomer.push(prompt("Enter Name:"));
+        customerName.push(prompt("Enter Name:"));
+        idCard.push(prompt("Enter id card:"));
+        dateOfBirth.push(prompt("Enter date of birth:"));
+        email.push(prompt("Enter email"));
+        address.push(prompt("Enter customer address:"));
+        customerType.push(prompt("Enter customerType:"));
+        discount.push(prompt("Enter discount:"));
+        numberAccompanying.push(prompt("Enter Number of accompaying:"));
+        dayOfRent.push(prompt("Enter day of rent:"));
+        serviceType.push(prompt("Enter service Type:"));
+        roomType.push(prompt("Enter room type:"));
+        totalPay.push(prompt("Enter total pay"));
+        displayMainMenu();
+    }
+
+    function displayCustomer() {
+        let resultName = "";
+        for (let i = 0; i <= arrListCustomer.length - 1; i++) {
+            resultName += i + 1 + "." + arrListCustomer[i] + " " + "Id Card : " + idCard[i] + "\n";
+        }
+        let Customer = prompt(resultName + "\n" + (arrListCustomer.length + 1) + "." + "Back to main menu.");
+
+        let i = parseInt(Customer);
+        if (i < arrListCustomer.length + 1) {
+            displayInfomationCustomer(i);
+        } else if (i === arrListCustomer.length + 1) {
+            displayMainMenu();
+        } else {
+            alert("Please choose again !!!");
+            displayCustomer();
+        }
+    }
+
+    function displayInfomationCustomer(i) {
+        alert("Customer Name : " + customerName[i - 1]
+            + "\n" + "IdCard : " + idCard[i - 1]
+            + "\n" + "Date Of Birth : " + dateOfBirth[i - 1]
+            + "\n" + "Email : " + email[i - 1]
+            + "\n" + "Address : " + address[i - 1]
+            + "\n" + "Customer Type : " + customerType[i - 1]
+            + "\n" + "Discount : " + discount[i - 1]
+            + "\n" + "Number Of Accompanying : " + numberAccompanying[i - 1]
+            + "\n" + "Day Of Rent : " + dayOfRent[i - 1]
+            + "\n" + "Service Type : " + serviceType[i - 1]
+            + "\n" + "Room Type : " + roomType[i - 1]);
+        displayCustomer();
+    }
+
+    function listEditCustomer() {
+        let resultName = "";
+        for (let i = 0; i <= arrListCustomer.length - 1; i++) {
+            resultName += i + 1 + "." + arrListCustomer[i] + " " + "Id Card : " + idCard[i] + "\n";
+        }
+        let Customer = prompt(resultName + "\n" + (arrListCustomer.length + 1) + "." + "Back to main menu.");
+
+        let i = parseInt(Customer);
+        if (i < arrListCustomer.length + 1) {
+            editInfomation(i);
+        } else if (i === arrListCustomer.length + 1) {
+            displayMainMenu();
+        } else {
+            alert("Please choose again !!!");
+            displayCustomer();
+        }
+    }
+
+    function editInfomation(i) {
+        let chooseedit = prompt(
+            "1. Customer Name : " + customerName[i - 1]
+            + "\n" + "2. IdCard : " + idCard[i - 1]
+            + "\n" + "3. Date Of Birth : " + dateOfBirth[i - 1]
+            + "\n" + "4. Email : " + email[i - 1]
+            + "\n" + "5. Address : " + address[i - 1]
+            + "\n" + "6. Customer Type : " + customerType[i - 1]
+            + "\n" + "7. Discount : " + discount[i - 1]
+            + "\n" + "8. Number Of Accompanying : " + numberAccompanying[i - 1]
+            + "\n" + "9. Day Of Rent : " + dayOfRent[i - 1]
+            + "\n" + "10. Service Type : " + serviceType[i - 1]
+            + "\n" + "11. Room Type : " + roomType[i - 1]
+            + "\n" + "12. Back to menu.");
+        switch (chooseedit) {
+            case "1":
+                let nameStandar = "";
+                let customerNameEdit = prompt("Enter name :");
+                customerNameEdit = customerNameEdit.trim().toLocaleLowerCase();
+                for (let i = 0; i < customerNameEdit.length; i++) {
+                    if (customerNameEdit.charAt(i) === " " && customerNameEdit.charAt(i + 1) === " ") {
+                        continue;
+                    }
+                    if (i === 0 || customerNameEdit.charAt(i - 1) === " ") {
+                        nameStandar += customerNameEdit.charAt(i).toLocaleUpperCase();
+                        continue;
+                    }
+                    nameStandar += customerNameEdit.charAt(i);
+                }
+                customerName[i - 1] = nameStandar;
+                editInfomation(i);
+                break;
+            case "2":
+                do {
+                    checkValidate = false;
+                    let idCardEdit = prompt("Enter Id Card :");
+                    if (isNaN(idCardEdit)) {
+                        alert("Id card is in valid!!! Please try again");
+                    } else if (idCardEdit >= 1000000000 && idCardEdit <= 9999999999) {
+                        checkValidate = true;
+                        idCard[i - 1] = idCardEdit;
+                    }
+                } while (!checkValidate);
+                editInfomation(i);
+                break;
+            case "3":
+                do {
+                    checkValidate = false;
+                    let dateOfBirthEdit = prompt("Enter Date Of Birth (dd/mm/yyyy/ :");
+                    if (dateOfBirthEdit.charAt(2) !== '/' || dateOfBirthEdit.charAt(5) !== '/') {
+                        alert("Birth day is invalid !!! Please try again");
+                        continue;
+                    }
+                    let day = dateOfBirthEdit.substring(0, 2);
+                    alert(day + "ac");
+                    alert((dateOfBirthEdit));
+                    let month = dateOfBirthEdit.substring(3, 5);
+                    let year = dateOfBirthEdit.substring(6, 10);
+                    if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
+                        day = Number.parseFloat(day);
+                        month = Number.parseFloat(month);
+                        year = Number.parseFloat(year);
+                        if (Number.isInteger(day) && Number.isInteger(month) && Number.isInteger(year)) {
+                            if (day > 0 && day < 32 && month > 0 && month < 13 && year > 1900 && year < 2019) {
+                                checkValidate = true;
+                            }
+                        }
+                    }
+                    dateOfBirth[i - 1] = dateOfBirthEdit;
+                    if (!checkValidate) {
+                        alert("Birth day is invalid !!! Please try again");
+                    }
+                } while (!checkValidate);
+                editInfomation(i);
+                break;
+            case "4":
+                do {
+                    let emailEdit = prompt("Enter Email :");
+                    let countAt = 0;
+                    let countDoc = 0;
+                    for (let i = 0; i < emailEdit.length; i++) {
+                        if (emailEdit.charAt(i) === "@") {
+                            countAt++;
+                        }
+                        if (emailEdit.charAt(i) === ".") {
+                            countDoc++;
+                        }
+                    }
+                    if (countDoc < 1 && countAt !== 1) {
+                        checkValidate = false;
+                        alert("Email is invalid !!! Try again");
+                    } else {
+                        email[i - 1] = emailEdit;
+                        checkValidate = true;
+                    }
+
+                } while (!checkValidate);
+                editInfomation(i);
+                break;
+            case "5":
+                let addressEdit = prompt("Enter Address :");
+                address[i - 1] = addressEdit;
+                editInfomation(i);
+                break;
+            case "6":
+                let customerTypeEdit = prompt("Enter Customer Type :");
+                customerType[i-1] = customerTypeEdit;
+                editInfomation(i);
+                break;
+            case "7":
+                do {
+                    let discountEdit = prompt("Enter Discount :");
+                    checkValidate = false;
+                    if (!isNaN(discount)) {
+                        discount = Number.parseFloat(discount);
+                        if (discount >= 0) {
+                            checkValidate = true;
+                            discount[i-1]= discountEdit;
+                        }
+                    }
+                    if (!checkValidate) {
+                        alert("Discount is invalid !!! Please try again ");
+                    }
+                } while (!checkValidate);
+                editInfomation(i);
+                break;
+            case "8":
+                do {
+                    let numberAccompanyingEdit = prompt("Enter Number Of Accompaying :");
+                    checkValidate = false;
+                    if (!isNaN(numberAccompanyingEdit)) {
+                        discount = Number.parseFloat(numberAccompanyingEdit);
+                        if (numberAccompanyingEdit >= 0 && Number.isInteger(numberAccompanyingEdit)) {
+                            checkValidate = true;
+                            numberAccompanying[i-1]= numberAccompanyingEdit;
+                        }
+                    }
+                    if (!checkValidate) {
+                        alert("Number of accompanying is invalid !!! Please try again ");
+                    }
+                } while (!checkValidate);
+                editInfomation(i);
+                break;
+            case "9":
+                do {
+                    let dayOfRentEdit = prompt("Enter Day Of Rent :");
+                    checkValidate = false;
+                    if (!isNaN(dayOfRentEdit)) {
+                        dayOfRentEdit = Number.parseFloat(dayOfRentEdit);
+                        if (dayOfRent >= 0) {
+                            checkValidate = true;
+                            dayOfRent[i-1] = dayOfRentEdit;
+                        }
+                    }
+                    if (!checkValidate) {
+                        alert("Rent day is invalid !!! Please try again ");
+                    }
+                } while (!checkValidate);
+                editInfomation(i);
+                break;
+            case "10":
+                let serviceTypeEdit = prompt("Enter Service Type :");
+                serviceType[i-1] = serviceTypeEdit;
+                editInfomation(i);
+                break;
+            case "11":
+                let roomTypeEdit = prompt("Enter Room Type :");
+                roomType[i-1]= roomTypeEdit;
+                editInfomation(i);
+                break;
+            case "12":
+                displayMainMenu();
+                break;
+            default:
+                alert("Please choose information you want to edit");
+                editInfomation(i);
+        }
+    }
+
+    function editInformationCustomer() {
+        listEditCustomer();
+        editInfomation();
+    }
+
+    function deleteCustomer() {
+        let resultName = "";
+        for (let i = 0; i <= arrListCustomer.length - 1; i++) {
+            resultName += i + 1 + "." + arrListCustomer[i] + " " + "Id Card : " + idCard[i] + "\n";
+        }
+        let Customer = prompt(resultName + "\n" + (arrListCustomer.length + 1) + "." + "Back to main menu.");
+
+        let i = parseInt(Customer);
+        if (i < arrListCustomer.length + 1) {
+            let check = confirm("Are you sure ?.");
+            if (check) {
+                arrListCustomer.splice(Customer - 1, 1);
+                deleteCustomer();
+            } else {
+                displayMainMenu();
+            }
+        } else if (i === arrListCustomer.length + 1) {
+            displayMainMenu();
+        } else {
+            alert("Please choose again !!!");
+            displayCustomer();
+        }
+    }
+
+    function exit() {
+
+    }
+</script>
+</body>
+</html>

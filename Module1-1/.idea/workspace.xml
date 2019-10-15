@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c247f9a1-fb3c-4288-9f3d-309180fc14e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Casestudy/Yeucau3/Yeucau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Casestudy/Yeucau3/Yeucau3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Casestudy/Yeucau6/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/Casestudy/Yeucau6/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Giaithuat/Bai1/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Giaithuat/Bai1/Bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Giaithuat/Bai2/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Giaithuat/Bai2/Bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Giaithuat/Bai3/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Giaithuat/Bai3/Bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Giaithuat/Bai4/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Giaithuat/Bai4/Bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Giaithuat/Bai5/Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Giaithuat/Bai5/Bai5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Giaithuat/Bai6/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Giaithuat/Bai6/Bai6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Giaithuat/Bai7/Bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Giaithuat/Bai7/Bai7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Giaithuat/Bai8/Bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Giaithuat/Bai8/Bai8.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau6/run.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Giaiquyetvandevathuattoan/Timkiemgiatrilopnhathoacnhonhat/Timkiemgiatri.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglopdate/Mydate.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglopdate/Xaydunglopdate.html" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglophinhtron/Circle.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglophinhtron/run.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglophinhtron/Xaydunglophinhtron.html" />
+        <option value="$PROJECT_DIR$/Casestudy/Yeucau3.html" />
+        <option value="$PROJECT_DIR$/Casestudy/Yeucau5.html" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglopmotahinhchunhat/Rectangle.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglopmotahinhchunhat/run.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglopmotahinhchunhat/Xaudunglopmotahinhchunhat.html" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/XaydunglopmotaTemperature/XaydunglopmotaTemperature.html" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/XaydunglopmotaTemperature/Temperature.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/XaydunglopmotaTemperature/run.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong2/Xaydunglopmophongsuhoatdongcuadenpin/Xaydunglopmophongsuhoatdongcuadenpin.html" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong2/Xaydunglopmophongsuhoatdongcuadenpin/Battery.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong2/Xaydunglopmophongsuhoatdongcuadenpin/Flashlamp.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong2/Xaydunglopmophongsuhoatdongcuadenpin/run.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong2/Adamvaeva/Adamvaeva.html" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong2/Adamvaeva/Human.js" />
+        <option value="$PROJECT_DIR$/Casestudy/Yeucau6.html" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglopdate/run.js" />
+        <option value="$PROJECT_DIR$/Laptrinhhuongdoituong2/Adamvaeva/Adam.js" />
+        <option value="$PROJECT_DIR$/Xulychuoi/Kiemtrakytudautiencuachuoicophaichuhoakhong/Kiemtrakytudautien.html" />
+        <option value="$PROJECT_DIR$/Xulychuoi/Kiemtrakytudautiencuachuoicophaichuhoakhong/run.js" />
+        <option value="$PROJECT_DIR$/Xulychuoi/Kiemtramaquocgianuocmy/Kiemtramaquocgianuocmy.html" />
+        <option value="$PROJECT_DIR$/Xulychuoi/ValidateEmail/Validateemail.html" />
+        <option value="$PROJECT_DIR$/Xulychuoi/Validateaccount/Validateaccount.html" />
+        <option value="$PROJECT_DIR$/Xulychuoi/Validatetencualophoc/Validatetenlophoc.html" />
+        <option value="$PROJECT_DIR$/Xulychuoi/Validatesodienthoai/Validatesodienthoai.html" />
+        <option value="$PROJECT_DIR$/Casestudy/h.html" />
+        <option value="$PROJECT_DIR$/Casestudy/Yeucau6test/Run.js" />
+        <option value="$PROJECT_DIR$/Casestudy/Yeucau6test/test.html" />
+        <option value="$PROJECT_DIR$/Casestudy/Yeucau6test/customer.js" />
+        <option value="$PROJECT_DIR$/Casestudy/Yeucau6/Customer.js" />
+        <option value="$PROJECT_DIR$/Casestudy/Yeucau6/Yeucau6.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai9/Bai9.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai10/Bai10.html" />
+        <option value="$PROJECT_DIR$/Giaiquyetvandevathuattoan/Timkiemgiatrilopnhathoacnhonhat/Timkiemgiatri.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai12/Bai12.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai11/Bai11.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai1/Bai1.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai2/Bai2.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai4/Bai4.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai3/Bai3.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai5/Bai5.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai6/Bai6.html" />
+        <option value="$PROJECT_DIR$/Casestudy/Yeucau6/run.js" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai7/Bai7.html" />
+        <option value="$PROJECT_DIR$/Casestudy/Yeucau3/Yeucau3.html" />
+        <option value="$PROJECT_DIR$/Giaithuat/Bai8/Bai8.html" />
+        <option value="$PROJECT_DIR$/thi/Bai1.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Casestudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Casestudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Yeucau2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Casestudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Yeucau3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Casestudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Yeucau4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Casestudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Yeucau5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Casestudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Yeucau6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Cautrucdieukien" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Cautrucdieukien" type="462c0819:PsiDirectoryNode" />
+              <item name="Kiemtranamnhuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Cautrucdieukien" type="462c0819:PsiDirectoryNode" />
+              <item name="Luyentapcautrucdieukien1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Cautruclap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaiquyetvandevathuattoan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaiquyetvandevathuattoan" type="462c0819:PsiDirectoryNode" />
+              <item name="Timkiemgiatrilopnhathoacnhonhat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Giaithuat" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Mang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Mang" type="462c0819:PsiDirectoryNode" />
+              <item name="Timgiatrilonnhattrongmang" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Workspace\Module1\Ham" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Kiemtrakytudautien.html">
+    <configuration name="Kiemtrakytudautien.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Module1/Xulychuoi/Kiemtrakytudautiencuachuoicophaichuhoakhong/Kiemtrakytudautien.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Yeucau2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Module1/Casestudy/Yeucau2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Yeucau5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Module1/Casestudy/Yeucau5.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Kiemtrakytudautien.html" />
+        <item itemvalue="JavaScript Debug.Yeucau5.html" />
+        <item itemvalue="JavaScript Debug.Yeucau2.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c247f9a1-fb3c-4288-9f3d-309180fc14e3" name="Default Changelist" comment="" />
+      <created>1569289140603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569289140603</updated>
+      <workItem from="1569289141850" duration="4210000" />
+      <workItem from="1569308543689" duration="9027000" />
+      <workItem from="1569374377330" duration="13206000" />
+      <workItem from="1569459811837" duration="1116000" />
+      <workItem from="1569461079150" duration="21557000" />
+      <workItem from="1569547541930" duration="8329000" />
+      <workItem from="1569566534256" duration="4189000" />
+      <workItem from="1569648155565" duration="1280000" />
+      <workItem from="1569728469472" duration="14799000" />
+      <workItem from="1569893500985" duration="12118000" />
+      <workItem from="1569980091389" duration="8283000" />
+      <workItem from="1570083803325" duration="6082000" />
+      <workItem from="1570155710225" duration="7346000" />
+      <workItem from="1570163153592" duration="15985000" />
+      <workItem from="1570186355349" duration="6190000" />
+      <workItem from="1570248614284" duration="141000" />
+      <workItem from="1570412376178" duration="21921000" />
+      <workItem from="1570459122744" duration="3705000" />
+      <workItem from="1570497533441" duration="4745000" />
+      <workItem from="1570502389845" duration="79000" />
+      <workItem from="1570502486611" duration="99000" />
+      <workItem from="1570502602003" duration="303000" />
+      <workItem from="1570502920372" duration="33000" />
+      <workItem from="1570502969779" duration="3907000" />
+      <workItem from="1570534758748" duration="1200000" />
+      <workItem from="1570587902957" duration="3437000" />
+      <workItem from="1570696952154" duration="67000" />
+      <workItem from="1571016587572" duration="593000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="173947000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.019828156" />
+      <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.15725806" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.10442829" />
+      <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.15725806" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglopdate/Xaydunglopdate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglopdate/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laptrinhhuongdoituong/Xaydunglopdate/Mydate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau6.html" />
+    <entry file="file://$PROJECT_DIR$/Laptrinhhuongdoituong2/Xaydunglopmophongsuhoatdongcuadenpin/Battery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laptrinhhuongdoituong2/Adamvaeva/Adamvaeva.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laptrinhhuongdoituong2/Adamvaeva/Adam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xulychuoi/Kiemtramaquocgianuocmy/Kiemtramaquocgianuocmy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xulychuoi/ValidateEmail/Validateemail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau5.html" />
+    <entry file="file://$PROJECT_DIR$/Xulychuoi/Validateaccount/Validateaccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casestudy/h.html" />
+    <entry file="file://$PROJECT_DIR$/Xulychuoi/Kiemtrakytudautiencuachuoicophaichuhoakhong/Kiemtrakytudautien.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xulychuoi/Validatetencualophoc/Validatetenlophoc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xulychuoi/Validatesodienthoai/Validatesodienthoai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau6test/test.html" />
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau6test/customer.js" />
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau6test/Run.js" />
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau6/Yeucau6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xulychuoi/Kiemtrakytudautiencuachuoicophaichuhoakhong/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laptrinhhuongdoituong2/Xaydunglopmophongsuhoatdongcuadenpin/Flashlamp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cautrucdieukien/Kiemtranamnhuan/kiemtranamnhuan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cautrucdieukien/Luyentapcautrucdieukien1/Bai1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cautrucdieukien/Luyentapcautrucdieukien1/Bai2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cautrucdieukien/Luyentapcautrucdieukien1/Bai3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cautrucdieukien/Luyentapcautrucdieukien1/Bai4.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cautrucdieukien/Luyentapcautrucdieukien1/Bai5.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cautrucdieukien/Luyentapcautrucdieukien1/Bai6.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cautrucdieukien/Luyentapcautrucdieukien1/Bai7.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mang/Daonguoccacphantutrongmang/Daonguoccacphantutrongmang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai1/Bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai2/Bai2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai3/Bai3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai4/Bai4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai5/Bai5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai6/Bai6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau2/Yeucau2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau4/Yeucau4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai7/Bai7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thi/Bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau6/Customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="992">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau5/Yeucau5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai8/Bai8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai9/Bai9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai10/Bai10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai11/Bai11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="11" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mang/Timgiatrilonnhattrongmang/Timgiatrilonnhattrongmang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau3/Yeucau3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="76" column="50" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaithuat/Bai12/Bai12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casestudy/Yeucau6/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giaiquyetvandevathuattoan/Timkiemgiatrilopnhathoacnhonhat/Timkiemgiatri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

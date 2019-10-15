@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    while (true){
+        let inputNumber = prompt("Nhập số m:");
+        let tong = 0;
+        let tich = 1;
+        for (let i =0;i<inputNumber.length;i++){
+            tong = tong+inputNumber[i]*1;
+            tich = tich*inputNumber[i];
+        }
+        alert("Tổng là:" + tong + "\n" + "Tích la:" + tich);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    while (true) {
+        let inputNumber = prompt("(Biểu thức có dạng S=15-1+1/2-1/3!+....+((-1)^n*)1/n!)" + "\n" + "Nhập số n :" )*1;
+        let tong = 0;
+        for (let i = 0; i <= inputNumber; i++) {
+
+            tong = tong + Math.pow(-1, inputNumber)/factorialize(inputNumber);
+        }
+        alert(15-tong);
+    }
+    function factorialize(num) {
+        if (num === 0 || num === 1)
+            return 1;
+        for (let i = num - 1; i >= 1; i--) {
+            num *= i;
+        }
+        return num;
+    }
+</script>
+</body>
+</html>

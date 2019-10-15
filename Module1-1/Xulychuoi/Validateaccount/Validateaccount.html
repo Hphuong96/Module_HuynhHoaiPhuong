@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let checkV = false;
+    let regx = /^[a-z0-9_]{6,}$/;
+    do {
+        let inputAccount = prompt("Enter a Account: ");
+        if (regx.test(inputAccount)){
+            alert("right ^^");
+            checkV = true ;
+        } else {
+            alert("wrong:((")
+        }
+    } while (!checkV)
+</script>
+</body>
+</html>

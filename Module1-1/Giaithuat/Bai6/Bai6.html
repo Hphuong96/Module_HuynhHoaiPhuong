@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    while (true) {
+        let inputNumber = prompt("Nhap so n:");
+        let tong = 0;
+        if (inputNumber <= 0) {
+            alert("Number is invalid");
+            break;
+        }
+        if (inputNumber % 2 === 0) {
+            for (let i = 1; i <= inputNumber; i++) {
+                if (i % 2 === 0) {
+                    tong = tong + i;
+                }
+            }
+            alert("Tổng các số chẵn :" + tong);
+        }
+        if (inputNumber % 2 !== 0) {
+            for (let i = 1; i <= inputNumber; i++) {
+                if (i % 2 !== 0) {
+                    tong = tong + i;
+                }
+            }
+            alert("Tổng các số lẽ :" + tong);
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let firstNumber = 0;
+    let secondNumber = 1;
+    let i;
+    let number;
+    let tong =0 ;
+    document.write(firstNumber);
+    document.write("<br>");
+    document.write(secondNumber);
+    for (i=0; i<=20; i++){
+        number=secondNumber + firstNumber;
+        firstNumber =secondNumber;
+        secondNumber=number;
+        tong = tong + number;
+        document.write("<br>");
+        document.write(number);
+        if (i===20){
+            document.write("tong la " + tong);
+
+        }
+    }
+</script>
+</body>
+</html>
