@@ -2,10 +2,12 @@ package ChuongTrinhChuyenDoiNhietDo;
 
 public class ChuyenDoiNhietDo {
     public static void main(String[] args) {
+
         java.util.Scanner input = new java.util.Scanner(System.in);
         double fahrenheit;
         double celsius;
         int choice;
+
 
         do {
             System.out.println("Menu.");
@@ -30,6 +32,8 @@ public class ChuyenDoiNhietDo {
                     System.exit(0);
             }
         } while (choice != 0);
+
+
     }
 
     public static double celsiusToFahrenheit(double celsius) {

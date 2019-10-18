@@ -19,5 +19,8 @@ public class PhuongTrinhBatNhat {
         if (a != 0 && b != 0){
             System.out.println("Phuong trinh co nghiem =" + (-b/a));
         }
+        int[] array ={1,2,3};
+        System.out.println(array.length);
+        Array
     }
 }
