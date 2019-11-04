@@ -28,13 +28,17 @@ public class LopHinhChuNhat {
     public void setHeight(double height) {
         this.height = height;
     }
+
     public double getArea(){
         return this.width*this.height;
     }
+
     public double getPerimeter(){
         return (this.height*this.width)*2;
     }
+
     public String display(){
         return width + " " + height;
     }
+
 }
