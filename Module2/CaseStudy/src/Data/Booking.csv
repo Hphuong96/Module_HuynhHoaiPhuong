@@ -1,0 +1,2 @@
+id,nameCustomer,dateOfBirthCustomer,genderCustomer,idCard,phoneNumber,emailCustomer,typeOfCustomer,addressCustomer,id,servicesName,area,rentCost,maxNumberOfCustomer,kindOfRent
+65356b742ad843ecb862487673510641,Vip Vip,29/02/1996,male,999999999,798.0,adqwd@gmail.com,vip,12e,27050957984e4a17a7ca4d2f5365fa14,Deluxe,300.0,10000,10,month

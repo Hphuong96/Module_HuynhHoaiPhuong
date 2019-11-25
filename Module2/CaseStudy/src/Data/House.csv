@@ -1,2 +1,3 @@
 id,servicesName,area,rentCost,maxNumberOfCustomer,kindOfRent,roomStandar,anotherConvenient,numberOfFloor,swimmingPoolArea
-ccc6fec5db49411ea6f0617223e96983,1,1,1,1,1,1,1,1
+ccc6fec5db49411ea6f0617223e96983,1,1.0,1,1,1,1,1,1
+12bbbd3dc7974181807390b5e2a2f24a,Vip Vip,120.0,12,12,Month,vip,massage,12
