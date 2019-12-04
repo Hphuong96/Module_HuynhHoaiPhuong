@@ -16,23 +16,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-<fieldset style="width:70% " >
-    <legend>Danh sach khach hang</legend>
+<fieldset class="scheduler-border" >
+    <legend class="scheduler-border">Danh sach khach hang</legend>
     <table class="table" >
-        <thead>
         <tr>
-            <th scope="col">ID CARD</th>
-            <th scope="col">NAME</th>
-            <th scope="col">ADDRESS</th>
+            <th>ID CARD</th>
+            <th>NAME</th>
+            <th>ADDRESS</th>
         </tr>
-        </thead>
-<%--        <tr >--%>
-<%--            <td width="150">ID Card </td>--%>
-<%--            <td width="150">Name </td>--%>
-<%--            <td width="150">Address </td>--%>
-<%--        </tr>--%>
-<%--        <hr>--%>
-
     <c:forEach var="customer" items="${customers}">
         <tr>
         <td>${customer.id}</td>
