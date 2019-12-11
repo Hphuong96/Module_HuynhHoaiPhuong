@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+<fieldset class="scheduler-border">
+    <legend class="scheduler-border">Product List</legend>
+    <p>
+        <a th:href="@{/product/AddNew}">
+            Add New Product
+        </a>
+    </p>
+    <table>
+        <td>
+            <input type="text" name="findProduct" placeholder="Product Name">
+        </td>
+
+        <td>
+            <input type="submit" name="submit" value="Submit">
+        </td>
+    </table>
+    <div class="notify">
+        <!--/*@thymesVar id="status" type="com"*/-->
+        <div th:if="${status}">
+            <span th:text="${status}"></span>
+        </div>
+    </div>
+    <table id="myTable" class="table table-sm table-striped table-hover">
+        <thead class="thead-dark">
+        <tr>
+            <td>Product Name</td>
+            <td>Product Price</td>
+            <td>Product Description</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </thead>
+        <tbody>
+        <!--/*@thymesVar id="products" type="com"*/-->
+        <tr th:each="row,rowStat : ${products}">
+            <td th:text="${row.getProductName()}"></td>
+            <td th:text="${row.getPrice()}"></td>
+            <td th:text="${row.getProduct_description()}"></td>
+            <td><a th:href="@{/product/{id}/edit(id=${row.getId()})}">Edit</a></td>
+            <td><a th:href="@{/customer/{id}/delete(id=${row.getId()})}" onclick="return confirm('Are you sure?')">Delete</a>
+            </td>
+            <td><a th:onclick="'javascript:deleteFunction(\'' + ${row.getId()} + '\');'">View</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+</fieldset>
+<script>
+
+</script>
+<script th:inline="javascript">
+    function deleteFunction(id) {
+        var arr = /*[[${products}]]*/ "";
+        for(var i =0;i<arr.length;i++) {
+
+            var tempId=arr[i].id;
+            if((tempId).toString()===id.toString()) {
+                alert("Product ID : " + arr[i].id + "\n" +"Product Name : "+ arr[i].productName + "\n" +"Product Description : "+ arr[i].product_description );
+            }
+        }
+
+    }
+</script>
+<footer th:replace="layout :: footer"></footer>
+</body>
+</html>
