@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class FuramaService {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
 
     @Column(name = "tendichvu")
     private String serviceName;
@@ -34,11 +34,11 @@ public class FuramaService {
     @JoinColumn(name = "loaidichvu_id")
     private FuramaServiceType furamaServiceType;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 

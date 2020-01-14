@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail Service</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="col-5">
+    <div class="container">
+        <h2>Booking</h2>
+<!--        <th:block th:if="${message}">-->
+<!--            <p th:text="${message}" class="text-danger"></p>-->
+<!--        </th:block>-->
+        <form action="/booking" method="post">
+            <input type="hidden" th:value="${service.get().getId()}" name="id"/>
+            <div class="form-group">
+                <label for="tendichvu">Name Service:</label>
+                <input type="text" class="form-control" id="tendichvu" name="tendichvu" th:value="${service.get().getServiceName()}" disabled>
+            </div>
+            <div class="form-group">
+                <label for="dientich">Area:</label>
+                <input type="text" class="form-control" id="dientich" name="dientich" th:value="${service.get().getAre()} + m2" disabled>
+            </div>
+            <div class="form-group">
+                <label for="chiphithue">Area:</label>
+                <input type="text" class="form-control" id="chiphithue" name="chiphithue" th:value="${service.get().getRentCost()}" disabled>
+            </div>
+            <div class="form-group">
+                <label for="songuoitoida">Area:</label>
+                <input type="text" class="form-control" id="songuoitoida" name="songuoitoida" th:value="${service.get().getMaxPerson()}" disabled>
+            </div>
+            <div class="form-group">
+                <label for="sotang">Floor:</label>
+                <input type="text" class="form-control" id="sotang" name="sotang" th:value="${service.get().getFloorNumber()}" disabled>
+            </div>
+            <div class="form-group">
+                <label for="trangthai">Status:</label>
+                <input type="text" class="form-control" id="trangthai" name="trangthai" th:value="${service.get().getStatus()}" disabled>
+            </div>
+            <div class="form-group">
+                <label for="startDay">Start Day:</label>
+                <input type="date" class="form-control"  id="startDay" name="startDay" >
+            </div>
+            <div class="form-group">
+                <label for="endDay">End Day:</label>
+                <input type="date" class="form-control" id="endDay" name="endDay" >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

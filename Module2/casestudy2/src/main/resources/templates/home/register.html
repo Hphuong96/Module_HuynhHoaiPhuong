@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail Service</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="col-5">
+    <div class="container">
+        <h2>Register Page</h2>
+        <!--        <th:block th:if="${message}">-->
+        <!--            <p th:text="${message}" class="text-danger"></p>-->
+        <!--        </th:block>-->
+        <form action="register" method="post" th:object="${customer}">
+<!--            <input type="hidden" th:value="${service.get().getId()}" name="id"/>-->
+            <div class="form-group">
+                <p th:if="${#fields.hasErrors()}" th:errors="*{customerName}" class="table-danger"></p>
+                <label for="customerName">Name Customer:</label>
+                <input type="text" class="form-control" id="customerName" name="customerName" th:field="*{customerName}" >
+            </div>
+            <div class="form-group">
+                <p th:if="${#fields.hasErrors()}" th:errors="*{birthday}" class="table-danger"></p>
+                <label for="birthday">Birthday:</label>
+                <input type="date" class="form-control" id="birthday" name="birthday" value="" th:field="*{birthday}">
+
+<!--                <input type="date" class="form-control" id="birthday" name="birthday" data-date="" data-date-format="DD MMMM YYYY" th:field="*{birthday}" >-->
+            </div>
+            <div class="form-group">
+                <p th:if="${#fields.hasErrors()}" th:errors="*{idCard}" class="table-danger"></p>
+                <label for="idCard">IDCARD:</label>
+                <input type="text" class="form-control" id="idCard" name="idCard" th:field="*{idCard}" >
+            </div>
+            <div class="form-group">
+                <p th:if="${#fields.hasErrors()}" th:errors="*{phoneNumber}" class="table-danger"></p>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" th:field="*{phoneNumber}" >
+            </div>
+            <div class="form-group">
+                <p th:if="${#fields.hasErrors()}" th:errors="*{email}" class="table-danger"></p>
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" id="email" name="email" th:field="*{email}" >
+            </div>
+            <div class="form-group">
+                <p th:if="${#fields.hasErrors()}" th:errors="*{address}" class="table-danger"></p>
+                <label for="address">Address:</label>
+                <input type="text" class="form-control" id="address" name="address" th:field="*{address}" >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
