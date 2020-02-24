@@ -1,0 +1,6 @@
+.custom-clickable-row {
+	cursor: pointer;
+}
+.modal .show{
+	display: block;
+}

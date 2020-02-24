@@ -1,0 +1,67 @@
+<div class="container" style="width: 900px; padding-top: 50px; ">
+    <div style="text-align: center;">
+        <h1>Thêm Mới Customer</h1>
+    </div>
+    <form [formGroup]="formAddNewCustomer">
+        <div>
+            <div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Họ Tên</label>
+                    <input class="form-control" id="exampleInputEmail1" formControlName="name">
+                    <p *ngIf="formAddNewCustomer.controls.name.errors?.required && formAddNewCustomer.controls.name.touched"
+                        class="text-danger">Vui Lòng Nhập Họ Tên </p>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Loại Khách</label>
+                    <input class="form-control" id="exampleInputEmail1" formControlName="type">
+                    <p *ngIf="formAddNewCustomer.controls.type.errors?.required && formAddNewCustomer.controls.type.touched"
+                        class="text-danger">Vui Lòng Nhập Loại Khách </p>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" formControlName="email">
+                    <p *ngIf="formAddNewCustomer.controls.email.errors?.required && formAddNewCustomer.controls.email.touched"
+                        class="text-danger">Vui Lòng Nhập Email </p>
+                    <p *ngIf="formAddNewCustomer.controls.email.errors?.email && formAddNewCustomer.controls.email.touched"
+                        class="text-danger">Email Sai Định Dạng </p>
+                </div>
+                <div class="form-group">
+                        <mat-form-field>
+                        <input [max]="maxDate" matInput [matDatepicker]="picker" placeholder="Choose a date" id="exampleInputEmail1"
+                                formControlName="dateOfBirth">
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                        </mat-form-field>
+                        <p *ngIf="formAddNewCustomer.controls.dateOfBirth.errors?.required && formAddNewCustomer.controls.dateOfBirth.touched"
+                            class="text-danger">Vui Lòng Nhập Ngày Sinh </p>
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputEmail1">Số CMND</label>
+                        <input class="form-control" id="exampleInputEmail1" formControlName="idCard">
+                        <p *ngIf="formAddNewCustomer.controls.idCard.errors?.required && formAddNewCustomer.controls.idCard.touched"
+                            class="text-danger">Vui Lòng Nhập IDCARD </p>
+                        <p *ngIf="formAddNewCustomer.controls.idCard.errors?.pattern && formAddNewCustomer.controls.idCard.touched"
+                            class="text-danger">IDCARD Không Đúng Định Dạng</p>
+                </div>
+                 <div class="form-group">
+                        <label for="exampleInputEmail1">Số DT</label>
+                        <input class="form-control" id="exampleInputEmail1" formControlName="phoneNumber">
+                        <p *ngIf="formAddNewCustomer.controls.phoneNumber.errors?.required && formAddNewCustomer.controls.phoneNumber.touched"
+                            class="text-danger">Vui Lòng Nhập Số DT </p>
+                        <p *ngIf="formAddNewCustomer.controls.phoneNumber.errors?.pattern && formAddNewCustomer.controls.phoneNumber.touched"
+                            class="text-danger">So dt Khong Dung Dinh Dang </p>
+
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputPassword1">Địa Chỉ</label>
+                        <input class="form-control" id="exampleInputPassword1" formControlName="address">
+                        <p *ngIf="formAddNewCustomer.controls.address.errors?.required && formAddNewCustomer.controls.address.touched"
+                            class="text-danger">Vui Lòng Nhập Địa Chỉ </p>
+
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2" (click)="addNewCustomer()">Submit</button>
+        <button type="submit" class="btn btn-danger">Cancel</button>
+    </form>
+</div>

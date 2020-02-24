@@ -1,0 +1,45 @@
+<div style="text-align: center;">
+  <h1>Danh Sách Khách Hàng</h1>
+</div>
+<nav class="navbar navbar-light bg-light px-0">
+  <button class="btn btn-primary my-2 my-sm-0" [routerLink] = "['/create-customer']">ADD NEW</button>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" placeholder="Search" [(ngModel)]="term" [ngModelOptions]="{standalone: true}">
+    <button class="btn btn-outline-success my-2 my-sm-0" >Search</button>
+  </form>
+</nav>
+<table class="table table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Type</th>
+      <th scope="col">Name</th>
+      <th scope="col">DateOfBirth</th>
+      <th scope="col">ID CARD</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Email</th>
+      <th scope="col">Address</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let customer of customers|filter:term |paginate: { itemsPerPage: 3, currentPage: p }">
+    <tr>
+      <td>{{ customer.id }}</td>
+      <td>{{ customer.type }}</td>
+      <td>{{ customer.name }}</td>
+      <td>{{ customer.dateOfBirth }}</td>
+      <td>{{ customer.idCard }}</td>
+      <td>{{ customer.phoneNumber }}</td>
+      <td>{{ customer.email }}</td>
+      <td>{{ customer.address }}</td>
+      <td>
+        <a [routerLink]="['/edit-customer/' + customer.id]" type="button"><i class="material-icons" style="font-size:25px;color:rgb(46, 40, 40)">settings</i></a>
+        <a href="" type="button"><i class="material-icons" style="font-size:25px;color:rgb(18, 164, 231)">info_outline</i></a>
+        <a (click)=openDialog(customer.id) type="button"><i class="material-icons" style="font-size:25px;color:red">delete_forever</i></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div class="row" style="position: absolute; top: 60%;">
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

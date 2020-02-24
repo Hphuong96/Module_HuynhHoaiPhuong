@@ -1,0 +1,228 @@
+{
+  "employee": [
+    {
+      "name": "Nguyen Van ",
+      "idRole": "Giam Doc",
+      "idSkill": "Dai Hoc",
+      "idDepart": "Phong 1",
+      "dateOfBirth": "2020-02-02T17:00:00.000Z",
+      "idCard": "123456789",
+      "salary": "30000000",
+      "phoneNumber": "090999999",
+      "email": "typicode@gmail.com",
+      "address": "typicode",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Nguyen Van A",
+      "idRole": "Giam Doc",
+      "idSkill": "Dai Hoc",
+      "idDepart": "Phong 1",
+      "dateOfBirth": "11/11/1991",
+      "idCard": "123456789",
+      "salary": "30000000",
+      "phoneNumber": "090999999",
+      "email": "typicode@gmail.com",
+      "address": "typicode"
+    },
+    {
+      "id": 4,
+      "name": "Nguyen Van A",
+      "idRole": "Giam Doc",
+      "idSkill": "Dai Hoc",
+      "idDepart": "Phong 1",
+      "dateOfBirth": "11/11/1991",
+      "idCard": "123456789",
+      "salary": "30000000",
+      "phoneNumber": "090999999",
+      "email": "typicode@gmail.com",
+      "address": "typicode"
+    },
+    {
+      "name": "Nguyen Van ",
+      "idRole": "Giam Doc",
+      "idSkill": "Dai Hoc",
+      "idDepart": "Phong 1",
+      "dateOfBirth": "11/11/1991",
+      "idCard": "123456789",
+      "salary": "30",
+      "phoneNumber": "090999999",
+      "email": "typicode@gmail.com",
+      "address": "typicode",
+      "id": 5
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "idEmployee": "1",
+      "idCustomer": "1",
+      "idService": "1",
+      "dayBegin": "11/11/1999",
+      "dayEnd": "12/12/1999",
+      "deposit": "3",
+      "totalCost": "10"
+    },
+    {
+      "id": 2,
+      "idEmployee": "1",
+      "idCustomer": "1",
+      "idService": "1",
+      "dayBegin": "11/11/1999",
+      "dayEnd": "12/12/1999",
+      "deposit": "3",
+      "totalCost": "10"
+    },
+    {
+      "id": 3,
+      "idEmployee": "1",
+      "idCustomer": "1",
+      "idService": "1",
+      "dayBegin": "11/11/1999",
+      "dayEnd": "12/12/1999",
+      "deposit": "3",
+      "totalCost": "10"
+    }
+  ],
+  "customer": [
+    {
+      "name": "Nguyen Van Av",
+      "type": "Vip",
+      "dateOfBirth": "11/11/1991",
+      "idCard": "123456789",
+      "phoneNumber": "090999999",
+      "email": "typicode@gmail.com",
+      "address": "typicode",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "type": "Vip",
+      "name": "Nguyen Van A",
+      "dateOfBirth": "11/11/1991",
+      "idCard": "123456789",
+      "phoneNumber": "090999999",
+      "email": "typicode@gmail.com",
+      "address": "typicode"
+    },
+    {
+      "id": 4,
+      "type": "Vip",
+      "name": "Nguyen Van A",
+      "dateOfBirth": "11/11/1991",
+      "idCard": "123456789",
+      "phoneNumber": "090999999",
+      "email": "typicode@gmail.com",
+      "address": "typicode"
+    },
+    {
+      "name": "Nguyen Van bdydyryryrxy",
+      "type": "12",
+      "dateOfBirth": "2020-02-01T17:00:00.000Z",
+      "idCard": "123456789",
+      "phoneNumber": "0900000000",
+      "email": "rsttete@gmail.com",
+      "address": "12",
+      "id": 6
+    },
+    {
+      "name": "Nguyen Van ydyryryrxy",
+      "type": "12",
+      "dateOfBirth": "2020-02-01T17:00:00.000Z",
+      "idCard": "123456789",
+      "phoneNumber": "0900000000",
+      "email": "yrsyrsrys@gmail.com",
+      "address": "typicode",
+      "id": 7
+    }
+  ],
+  "service": [
+    {
+      "id": 1,
+      "nameService": "Vip",
+      "area": "200",
+      "numberOfFloor": "5",
+      "maxPeople": "5",
+      "cost": "30",
+      "idRentType": "1",
+      "status": "ok"
+    },
+    {
+      "id": 2,
+      "nameService": "Vip",
+      "area": "200",
+      "numberOfFloor": "5",
+      "maxPeople": "5",
+      "cost": "30",
+      "idRentType": "1",
+      "status": "ok"
+    },
+    {
+      "id": 3,
+      "nameService": "Vip",
+      "area": "200",
+      "numberOfFloor": "5",
+      "maxPeople": "5",
+      "cost": "30",
+      "idRentType": "1",
+      "status": "ok"
+    },
+    {
+      "id": 4,
+      "nameService": "Vip",
+      "area": "200",
+      "numberOfFloor": "5",
+      "maxPeople": "5",
+      "cost": "30",
+      "idRentType": "1",
+      "status": "ok"
+    },
+    {
+      "id": 5,
+      "nameService": "Vip",
+      "area": "200",
+      "numberOfFloor": "5",
+      "maxPeople": "5",
+      "cost": "30",
+      "idRentType": "1",
+      "status": "ok"
+    },
+    {
+      "id": 6,
+      "nameService": "Vip",
+      "area": "200",
+      "numberOfFloor": "5",
+      "maxPeople": "5",
+      "cost": "30",
+      "idRentType": "1",
+      "status": "ok"
+    }
+  ],
+  "detail-contact": [
+    {
+      "id": 1,
+      "idContact": "1",
+      "idIncludeService": "1",
+      "number": "2"
+    },
+    {
+      "id": 2,
+      "idContact": "1",
+      "idIncludeService": "1",
+      "number": "2"
+    },
+    {
+      "id": 3,
+      "idContact": "1",
+      "idIncludeService": "1",
+      "number": "2"
+    },
+    {
+      "id": 4,
+      "idContact": "1",
+      "idIncludeService": "1",
+      "number": "2"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+
+#sidebar-wrapper {
+  height: 100vh;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+.sidebar-heading{
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+#home{
+  font-size: 40px;
+  color: black;
+}

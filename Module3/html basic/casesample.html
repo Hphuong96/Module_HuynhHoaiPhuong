@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="casecss.css" />
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <!-- <link rel="stylesheet" href="story.css"> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Trang Chủ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Liên hệ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tuyển Dụng</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="intro">
+        <div class="intro-text">
+            <h1 class="intro-tilte">Furama Management System</h1>
+            <p>Hệ thống Quản Lý Khách Sạn Furama</p>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Danh Sách Quản Lý</button>
+            <div class="dropdown-content">
+                <a href="#">Quản Lý Nhân Viên</a>
+                <a href="#">Quản Lý Dịch Vụ</a>
+                <a href="#">Quản Lý Khách Hàng</a>
+                <a href="#">Quản Lý Hợp Đồng</a>
+                <a href="#">Quản Lý HD Chi Tiết</a>
+            </div>
+        </div>
+    </div>
+
+
+    <form class="form-horizontal form-label-left" novalidate>
+        <span class="section">Personal Info</span>
+        <div class="item form-group">
+            <label class="col-form-label col-md-3 col-sm-3 label-align" for="name">Name <span class="required">*</span>
+            </label>
+            <div class="col-md-6 col-sm-6">
+                <input id="name" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
+                    placeholder="" required="required" type="text" />
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="col-form-label col-md-3 col-sm-3 label-align" for="email">Email <span
+                    class="required">*</span>
+            </label>
+            <div class="col-md-6 col-sm-6">
+                <input type="email" id="email" name="email" required="required" class="form-control" />
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="col-form-label col-md-3 col-sm-3 label-align" for="email">Confirm Email <span
+                    class="required">*</span>
+            </label>
+            <div class="col-md-6 col-sm-6">
+                <input type="email" id="email2" name="confirm_email" data-validate-linked="email" required="required"
+                    class="form-control" />
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="col-form-label col-md-3 col-sm-3 label-align" for="number">Number <span
+                    class="required">*</span>
+            </label>
+            <div class="col-md-6 col-sm-6">
+                <input type="number" id="number" name="number" required="required" data-validate-minmax="10,100"
+                    class="form-control" />
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="col-form-label col-md-3 col-sm-3 label-align" for="website">Website URL <span
+                    class="required">*</span>
+            </label>
+            <div class="col-md-6 col-sm-6">
+                <input type="url" id="website" name="website label-align" required="required"
+                    placeholder="www.website.com" class="form-control" />
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="col-form-label col-md-3 col-sm-3 label-align" for="occupation">Occupation <span
+                    class="required">*</span>
+            </label>
+            <div class="col-md-6 col-sm-6">
+                <input id="occupation" type="text" name="occupation" data-validate-length-range="5,20"
+                    class="optional form-control" />
+            </div>
+        </div>
+        <div class="item form-group">
+            <label for="password" class="col-form-label col-md-3 label-align">Password</label>
+            <div class="col-md-6 col-sm-6">
+                <input id="password" type="password" name="password" data-validate-length="6,8" class="form-control"
+                    required="required" />
+            </div>
+        </div>
+        <div class="item form-group">
+            <label for="password2" class="col-form-label col-md-3 col-sm-3 label-align ">Repeat Password</label>
+            <div class="col-md-6 col-sm-6">
+                <input id="password2" type="password" name="password2" data-validate-linked="password"
+                    class="form-control" required="required" />
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="col-form-label col-md-3 col-sm-3 label-align" for="telephone">Telephone <span
+                    class="required">*</span>
+            </label>
+            <div class="col-md-6 col-sm-6">
+                <input type="tel" id="telephone" name="phone" required="required" data-validate-length-range="8,20"
+                    class="form-control" />
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="col-form-label col-md-3 col-sm-3 label-align" for="textarea">Textarea <span
+                    class="required">*</span>
+            </label>
+            <div class="col-md-6 col-sm-6">
+                <textarea id="textarea" required="required" name="textarea" class="form-control"></textarea>
+            </div>
+        </div>
+        <div class="ln_solid"></div>
+        <div class="form-group">
+            <div class="col-md-6 offset-md-3">
+                <button type="submit" class="btn btn-primary">
+                    Cancel
+                </button>
+                <button id="send" type="submit" class="btn btn-success">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

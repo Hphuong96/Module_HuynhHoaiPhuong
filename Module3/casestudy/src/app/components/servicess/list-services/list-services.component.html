@@ -1,0 +1,107 @@
+
+  <div style="text-align: center;">
+    <h1>Danh Sách Dịch Vụ</h1>
+  </div>
+  <div>
+    <nav class="navbar navbar-light bg-light px-0">
+      <button class="btn btn-primary my-2 my-sm-0" type="submit" [routerLink] = "['/create-service']">ADD NEW</button>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" placeholder="Search" [(ngModel)]="term"
+          [ngModelOptions]="{ standalone: true }" />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </nav>
+    <div>
+      <table class="table table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Service Name</th>
+            <th scope="col">Area</th>
+            <th scope="col">Number OF Floor</th>
+            <th scope="col">Max People</th>
+            <th scope="col">Cost</th>
+            <th scope="col">ID Rent</th>
+            <th scope="col">Status</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody *ngFor="
+          let service of services
+            | filter: term
+            | paginate: { itemsPerPage: 5, currentPage: p }
+        ">
+          <tr>
+            <td>{{ service.id }}</td>
+            <td>{{ service.nameService }}</td>
+            <td>{{ service.area }}</td>
+            <td>{{ service.numberOfFloor }}</td>
+            <td>{{ service.maxPeople }}</td>
+            <td>{{ service.cost }}</td>
+            <td>{{ service.idRentType }}</td>
+            <td>{{ service.status }}</td>
+            <td>
+              <a [routerLink]="['/edit-service/' + service.id]" type="button"><i class="material-icons" style="font-size:25px;color:rgb(46, 40, 40)">settings</i></a>
+              <a href="#" type="button"><i class="material-icons" style="font-size:25px;color:rgb(18, 164, 231)">info_outline</i></a>
+              <a (click)=openDialog(service.id) type="button"><i class="material-icons" style="font-size:25px;color:red">delete_forever</i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+  <div class="row" style="position: absolute; top: 60%;">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </div>
+
+
+
+<!-- <div class="row justify-content-between">
+  <h2>Danh Sách Nhân Viên</h2>
+  <div class="d-flex">
+      <input class="form-control" type="text" style="width: 400px;" placeholder="Tìm Kiếm Theo Tên Nhân Viên"
+          [(ngModel)]="term">
+      <button class="btn btn-outline-success">Search</button>
+  </div>
+</div>
+<div class="row mt-3 px-3">
+  <button class="btn btn-success">Thêm Mới</button>
+  <table class="table mt-3 table-striped" style="font-size: 12px;">
+      <thead>
+          <tr>
+              <th>ID</th>
+              <th>Họ Tên</th>
+              <th>Vị Trí</th>
+              <th>Trình Độ</th>
+              <th>Bộ Phận</th>
+              <th>Ngày Sinh</th>
+              <th>Số CMND</th>
+              <th>Lương</th>
+              <th>Email</th>
+              <th>SĐT</th>
+              <th>Action</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let service of services |filter:term | paginate: { itemsPerPage: 3 , currentPage: p }">
+            <td>{{ service.id }}</td>
+            <td>{{ service.nameService }}</td>
+            <td>{{ service.area }}</td>
+            <td>{{ service.numberOfFloor }}</td>
+            <td>{{ service.maxPeople }}</td>
+            <td>{{ service.cost }}</td>
+            <td>{{ service.idRent }}</td>
+            <td>{{ service.status }}</td>
+            <td><a href="">EDIT</a></td>
+              <td style="width: 12%;">
+                  <button class="btn btn-sm btn-warning mr-3">Sửa</button>
+                  <button class="btn btn-sm btn-danger">Xóa</button>
+              </td>
+          </tr>
+      </tbody>
+  </table>
+  <pagination-controls (pageChange)="p = $event" style="position: absolute; top: 835px;"></pagination-controls>
+</div> -->

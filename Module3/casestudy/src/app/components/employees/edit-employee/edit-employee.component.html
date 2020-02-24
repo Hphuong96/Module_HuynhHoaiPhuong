@@ -1,0 +1,103 @@
+<div class="container" style="width: 900px; padding-top: 50px; ">
+    <div style="text-align: center;">
+        <h1>Edit Employee</h1>
+    </div>
+
+    <form [formGroup]="formEditEmployee">
+        <div class="row">
+            <div class="col-5">
+                <!-- <div class="form-group">
+                    <label for="exampleInputEmail1">ID</label>
+                    <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div> -->
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Họ Tên</label>
+                    <input class="form-control" id="exampleInputEmail1" formControlName="name">
+                    <p *ngIf="formEditEmployee.controls.name.errors?.required && formEditEmployee.controls.name.touched"
+                        class="text-danger">Vui Lòng Nhập Họ Tên </p>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" formControlName="email">
+                    <p *ngIf="formEditEmployee.controls.email.errors?.required && formEditEmployee.controls.email.touched"
+                        class="text-danger">Vui Lòng Nhập Email </p>
+                    <p *ngIf="formEditEmployee.controls.email.errors?.email && formEditEmployee.controls.email.touched"
+                        class="text-danger">Email Sai Định Dạng </p>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Chức Vụ</label>
+                    <input class="form-control" id="exampleInputEmail1" formControlName="idRole">
+                    <p *ngIf="formEditEmployee.controls.idRole.errors?.required && formEditEmployee.controls.idRole.touched"
+                        class="text-danger">Vui Lòng Nhập Chức Vụ </p>
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Trình Độ</label>
+                    <input class="form-control" id="exampleInputEmail1" formControlName="idSkill">
+                    <p *ngIf="formEditEmployee.controls.idSkill.errors?.required && formEditEmployee.controls.idSkill.touched"
+                        class="text-danger">Vui Lòng Nhập Trình Độ </p>
+
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="row">
+                    <div class="form-group col-6">
+                        <mat-form-field>
+                            <input [max]="maxDate" matInput [matDatepicker]="picker" placeholder="Choose a date" id="exampleInputEmail1"
+                                formControlName="dateOfBirth">
+                            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                            <mat-datepicker #picker></mat-datepicker>
+                        </mat-form-field>
+                        <p *ngIf="formEditEmployee.controls.dateOfBirth.errors?.required && formEditEmployee.controls.dateOfBirth.touched"
+                            class="text-danger">Vui Lòng Nhập Ngày Sinh </p>
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="exampleInputEmail1">Số CMND</label>
+                        <input class="form-control" id="exampleInputEmail1" formControlName="idCard">
+                        <p *ngIf="formEditEmployee.controls.idCard.errors?.required && formEditEmployee.controls.idCard.touched"
+                            class="text-danger">Vui Lòng Nhập IDCARD </p>
+                        <p *ngIf="formEditEmployee.controls.idCard.errors?.pattern && formEditEmployee.controls.idCard.touched"
+                            class="text-danger">IDCARD Không Đúng Định Dạng</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-6">
+                        <label for="exampleInputEmail1">Số DT</label>
+                        <input class="form-control" id="exampleInputEmail1" formControlName="phoneNumber">
+                        <p *ngIf="formEditEmployee.controls.phoneNumber.errors?.required && formEditEmployee.controls.phoneNumber.touched"
+                            class="text-danger">Vui Lòng Nhập Số DT </p>
+                        <p *ngIf="formEditEmployee.controls.phoneNumber.errors?.pattern && formEditEmployee.controls.phoneNumber.touched"
+                            class="text-danger">So dt Khong Dung Dinh Dang </p>
+
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="exampleInputPassword1">Địa Chỉ</label>
+                        <input class="form-control" id="exampleInputPassword1" formControlName="address">
+                        <p *ngIf="formEditEmployee.controls.address.errors?.required && formEditEmployee.controls.address.touched"
+                            class="text-danger">Vui Lòng Nhập Địa Chỉ </p>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Bộ Phận</label>
+                    <input class="form-control" id="exampleInputEmail1" formControlName="idDepart">
+                    <p *ngIf="formEditEmployee.controls.idDepart.errors?.required && formEditEmployee.controls.idDepart.touched"
+                        class="text-danger">Vui Lòng Nhập Bộ Phận </p>
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Lương</label>
+                    <input class="form-control" id="exampleInputEmail1" formControlName="salary">
+                    <p *ngIf="formEditEmployee.controls.salary.errors?.required && formEditEmployee.controls.salary.touched"
+                        class="text-danger">Vui Lòng Nhập Lương </p>
+                    <p *ngIf="formEditEmployee.controls.salary.errors?.pattern && formEditEmployee.controls.salary.touched"
+                        class="text-danger">Lương Không Đúng Định Dạng </p>
+
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2" (click)="editEmployee()">Submit</button>
+        <button type="submit" class="btn btn-danger">Cancel</button>
+    </form>
+</div>

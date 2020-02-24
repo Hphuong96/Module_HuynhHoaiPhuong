@@ -1,0 +1,51 @@
+<div style="text-align: center;">
+  <h1>Danh Sách Hợp Đồng</h1>
+</div>
+<div>
+  <!-- <div class="w-25 mx-0">
+    <button class="btn btn-primary mb-3">Add New</button>
+  </div>
+  <form class="form-inline my-2 my-lg-0 w-75 mx-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</div> -->
+<nav class="navbar navbar-light bg-light px-0">
+  <button class="btn btn-primary my-2 my-sm-0" type="submit">ADD NEW</button>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" placeholder="Search" [(ngModel)]="term" [ngModelOptions]="{standalone: true}">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+
+<table class="table table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">ID Contact</th>
+      <th scope="col">ID Employee</th>
+      <th scope="col">ID Customer</th>
+      <th scope="col">ID Service</th>
+      <th scope="col">Day Begin</th>
+      <th scope="col">Day End</th>
+      <th scope="col">Deposit</th>
+      <th scope="col">Total Cost</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let contact of contacts|filter:term |paginate: { itemsPerPage: 3, currentPage: p }">
+    <tr>
+      <td>{{ contact.id }}</td>
+      <td>{{ contact.idEmployee }}</td>
+      <td>{{ contact.idCustomer }}</td>
+      <td>{{ contact.idService }}</td>
+      <td>{{ contact.dayBegin }}</td>
+      <td>{{ contact.dayEnd }}</td>
+      <td>{{ contact.deposit }}</td>
+      <td>{{ contact.totalCost }}</td>
+      <td><a href="">EDIT</a></td>
+    </tr>
+  </tbody>
+</table>
+<div class="row" style="position: absolute; top: 60%;">
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

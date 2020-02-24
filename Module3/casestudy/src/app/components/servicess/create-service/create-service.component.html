@@ -1,0 +1,70 @@
+<div class="container" style="width: 900px; padding-top: 50px; ">
+    <div style="text-align: center;">
+        <h1>Thêm Mới Service</h1>
+    </div>
+    <form [formGroup]="formAddNewService">
+        <div>
+            <div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Tên Dịch Vụ</label>
+                    <input class="form-control"  formControlName="nameService">
+                    <p *ngIf="formAddNewService.controls.nameService.errors?.required && formAddNewService.controls.nameService.touched"
+                        class="text-danger">Vui Lòng Nhập Tên Dịch Vụ</p>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Diện Tích</label>
+                    <input class="form-control"  formControlName="area">
+                    <p *ngIf="formAddNewService.controls.area.errors?.required && formAddNewService.controls.area.touched"
+                        class="text-danger">Vui Lòng Nhập Diện Tích</p>
+                        <p *ngIf="formAddNewService.controls.area.errors?.pattern && formAddNewService.controls.area.touched"
+                            class="text-danger">Sai Định Dạng</p>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Số Tầng</label>
+                    <input type="email" class="form-control"  formControlName="numberOfFloor">
+                    <p *ngIf="formAddNewService.controls.numberOfFloor.errors?.required && formAddNewService.controls.numberOfFloor.touched"
+                        class="text-danger">Vui Lòng Nhập Số Tầng </p>
+                    <p *ngIf="formAddNewService.controls.numberOfFloor.errors?.pattern && formAddNewService.controls.numberOfFloor.touched"
+                        class="text-danger">Sai Định Dạng, Không Vượt Quá 10 Tầng</p>
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputEmail1">Số Người Tối Đa</label>
+                        <input class="form-control"  formControlName="maxPeople">
+                        <p *ngIf="formAddNewService.controls.maxPeople.errors?.required && formAddNewService.controls.maxPeople.touched"
+                            class="text-danger">Vui Lòng Nhập Số Người</p>
+                        <p *ngIf="formAddNewService.controls.maxPeople.errors?.pattern && formAddNewService.controls.maxPeople.touched"
+                            class="text-danger">Sai Định Dạng, Tối Đa 10 Người</p>
+                </div>
+                 <div class="form-group">
+                        <label for="exampleInputEmail1">Chi Phí</label>
+                        <input class="form-control"  formControlName="cost">
+                        <p *ngIf="formAddNewService.controls.cost.errors?.required && formAddNewService.controls.cost.touched"
+                            class="text-danger">Vui Lòng Nhập Chi Phí</p>
+                        <p *ngIf="formAddNewService.controls.cost.errors?.pattern && formAddNewService.controls.cost.touched"
+                            class="text-danger">Sai Định Dạng</p>
+
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputPassword1">ID Kiểu Thuê</label>
+                        <input class="form-control" formControlName="idRentType">
+                        <p *ngIf="formAddNewService.controls.idRentType.errors?.required && formAddNewService.controls.idRentType.touched"
+                            class="text-danger">Vui Lòng Nhập ID Kiểu Thuê</p>
+                            <p *ngIf="formAddNewService.controls.idRentType.errors?.pattern && formAddNewService.controls.idRentType.touched"
+                            class="text-danger">Sai Định Dạng</p>
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Status</label>
+                    <input class="form-control" formControlName="status">
+                    <p *ngIf="formAddNewService.controls.status.errors?.required && formAddNewService.controls.status.touched"
+                        class="text-danger">Vui Lòng Nhập Status</p>
+                    <p *ngIf="formAddNewService.controls.status.errors?.pattern && formAddNewService.controls.status.touched"
+                        class="text-danger">Status Phải Là available Hoặc not available</p>
+
+            </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2" (click)="addNewService()">Submit</button>
+        <button type="submit" class="btn btn-danger">Cancel</button>
+    </form>
+</div>

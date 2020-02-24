@@ -1,0 +1,67 @@
+<div class="container" style="width: 900px; padding-top: 50px; ">
+    <div style="text-align: center;">
+        <h1>Edit Customer</h1>
+    </div>
+    <form [formGroup]="formEditCustomer">
+        <div>
+            <div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Họ Tên</label>
+                    <input class="form-control" id="exampleInputEmail1" formControlName="name">
+                    <p *ngIf="formEditCustomer.controls.name.errors?.required && formEditCustomer.controls.name.touched"
+                        class="text-danger">Vui Lòng Nhập Họ Tên </p>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Loại Khách</label>
+                    <input class="form-control" id="exampleInputEmail1" formControlName="type">
+                    <p *ngIf="formEditCustomer.controls.type.errors?.required && formEditCustomer.controls.type.touched"
+                        class="text-danger">Vui Lòng Nhập Loại Khách </p>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" formControlName="email">
+                    <p *ngIf="formEditCustomer.controls.email.errors?.required && formEditCustomer.controls.email.touched"
+                        class="text-danger">Vui Lòng Nhập Email </p>
+                    <p *ngIf="formEditCustomer.controls.email.errors?.email && formEditCustomer.controls.email.touched"
+                        class="text-danger">Email Sai Định Dạng </p>
+                </div>
+                <div class="form-group">
+                        <mat-form-field>
+                        <input [max]="maxDate" matInput [matDatepicker]="picker" placeholder="Choose a date" id="exampleInputEmail1"
+                                formControlName="dateOfBirth">
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                        </mat-form-field>
+                        <p *ngIf="formEditCustomer.controls.dateOfBirth.errors?.required && formEditCustomer.controls.dateOfBirth.touched"
+                            class="text-danger">Vui Lòng Nhập Ngày Sinh </p>
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputEmail1">Số CMND</label>
+                        <input class="form-control" id="exampleInputEmail1" formControlName="idCard">
+                        <p *ngIf="formEditCustomer.controls.idCard.errors?.required && formEditCustomer.controls.idCard.touched"
+                            class="text-danger">Vui Lòng Nhập IDCARD </p>
+                        <p *ngIf="formEditCustomer.controls.idCard.errors?.pattern && formEditCustomer.controls.idCard.touched"
+                            class="text-danger">IDCARD Không Đúng Định Dạng</p>
+                </div>
+                 <div class="form-group">
+                        <label for="exampleInputEmail1">Số DT</label>
+                        <input class="form-control" id="exampleInputEmail1" formControlName="phoneNumber">
+                        <p *ngIf="formEditCustomer.controls.phoneNumber.errors?.required && formEditCustomer.controls.phoneNumber.touched"
+                            class="text-danger">Vui Lòng Nhập Số DT </p>
+                        <p *ngIf="formEditCustomer.controls.phoneNumber.errors?.pattern && formEditCustomer.controls.phoneNumber.touched"
+                            class="text-danger">So dt Khong Dung Dinh Dang </p>
+
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputPassword1">Địa Chỉ</label>
+                        <input class="form-control" id="exampleInputPassword1" formControlName="address">
+                        <p *ngIf="formEditCustomer.controls.address.errors?.required && formEditCustomer.controls.address.touched"
+                            class="text-danger">Vui Lòng Nhập Địa Chỉ </p>
+
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2" (click)="editCustomer()">Submit</button>
+        <button type="submit" class="btn btn-danger">Cancel</button>
+    </form>
+</div>

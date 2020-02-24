@@ -35,6 +35,7 @@ public class BookingController {
         furamaContact.setIdContact(id);
         furamaContact.setContactBeginDay(startDay);
         furamaContact.setContactEndDay(endDay);
+        furamaContact.setIdService(id);
         furamaContact.setIdCustomer((long) 1);
         furamaContact.setIdEmployee((long) 1);
         contactService.saveContact(furamaContact);
